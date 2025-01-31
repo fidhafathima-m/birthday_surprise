@@ -1,0 +1,97 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    background: #f3f1f1; /* Soft beige background */
+    color: #3d3d3d;
+    line-height: 1.6;
+}
+
+/* Main Container Styling */
+.main-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f8e8d5;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #4f2a1d;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #6c4f2d;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+}
+
+/* Message Styling */
+.message {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #6d4b3d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #4f2a1d;
+    transform: scale(1.1);
+}
+
+/* Motivation Section Styling */
+.motivation p {
+    font-size: 1.2rem;
+    color: #4f2a1d;
+    font-style: italic;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .main-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
